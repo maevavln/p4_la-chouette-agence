@@ -7,6 +7,25 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body, a{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757!important;
+}
+
+/*font */
+
+@font-face {
+    font-family: 'Goudy Bookletter 1911';
+    src: url('GoudyBookletter1911.woff2') format('woff2'),
+        url('GoudyBookletter1911.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*end font */
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -90,178 +109,25 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texture-paper::before{
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
 .b-parallax {
     background-attachment: fixed;
-}
-
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
-}
-
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
-
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.l-bloc .icon-round,
-.l-bloc .icon-square,
-.l-bloc .icon-rounded,
-.l-bloc .icon-semi-rounded-a,
-.l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span,
-.l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover,
-.l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
 }
 
 .voffset {
@@ -287,7 +153,13 @@ a:hover {
     font-size: 32px;
 }
 
+.logo-font {
+    font-family: 'Goudy Bookletter 1911';
+    font-size: 1.5em;
+}
+
 .navbar {
+    width: 100%;
     margin-bottom: 0;
     z-index: 1;
 }
@@ -352,13 +224,12 @@ a:hover {
 }
 
 .nav-invert .navbar .nav {
-    float: left;
+    display:flex;
 }
 
-.nav-invert .navbar-header,
-.nav-invert .navbar-brand {
-    float: right;
-    position: relative;
+.nav-invert .navbar-header .navbar-brand {
+    display: 100%;
+    display:flex;
     z-index: 2;
 }
 
@@ -384,8 +255,7 @@ a:hover {
     .nav-center .navbar-header {
         width: 100%;
     }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
+    .nav-center .nav-center .navbar-brand,
     .nav-center .nav > li {
         float: none;
         display: inline-block;
@@ -639,21 +509,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-}
-
 .container {
     max-width: 1000px;
 }
@@ -677,7 +532,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -734,6 +589,7 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
+
 
 .white {
     color: #FFFFFF!important;
@@ -822,8 +678,15 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
+
+.text-intro-clients {
+    font-size: 20px;
+}
+
+
+/* MEDIA QUERRIES */
 
 @media (max-width: 1024px) {
     .bloc {
@@ -965,7 +828,7 @@ h4 {
         max-height: 40px;
         width: auto;
     }
-    .nav-invert .navbar-header {
+    .nav-invert {
         float: none;
         width: 100%;
     }
@@ -1046,5 +909,6 @@ h4 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    
+    padding-left: 40px;
+    padding-right: 40px; 
 }
