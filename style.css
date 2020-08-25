@@ -10,7 +10,7 @@ body {
 body, a{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 /*font */
@@ -121,6 +121,13 @@ a:hover {
     align-items: center;
 }
 
+.element-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .texture-paper::before{
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -156,6 +163,11 @@ a:hover {
 .logo-font {
     font-family: 'Goudy Bookletter 1911';
     font-size: 1.5em;
+}
+
+.header {
+    display: flex;
+    flex-direction: wrap;
 }
 
 .navbar {
@@ -347,6 +359,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #FFFFFF;
 }
 
 .icon-lg {
@@ -547,7 +560,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -557,6 +570,11 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    opacity: 50%;
+}
+
+.social:hover {
+    opacity: 100%;
 }
 
 h2 {
@@ -568,7 +586,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -578,11 +596,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -592,7 +610,7 @@ h4 {
 
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -631,7 +649,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
@@ -640,29 +658,29 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color:#FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -685,6 +703,25 @@ h4 {
     font-size: 20px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer {
+    color: #FFFFFF;
+    margin: 0 0 10px;
+    padding: 0 0 10px;;
+}
+
+.bandeau-accueil {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+
+}
 
 /* MEDIA QUERRIES */
 
