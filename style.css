@@ -166,6 +166,7 @@ a:hover {
 }
 
 .header {
+    width: 100%;
     display: flex;
     flex-direction: wrap;
 }
@@ -195,7 +196,8 @@ a:hover {
     min-width: 100px;
 }
 
-.nav-center .navbar-brand img {
+.
+center .navbar-brand img {
     margin: 0;
 }
 
@@ -240,7 +242,7 @@ a:hover {
 }
 
 .nav-invert .navbar-header .navbar-brand {
-    display: 100%;
+    width: 100%;
     display:flex;
     z-index: 2;
 }
@@ -320,6 +322,11 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    z-index: 1;
+}
+
+.text-bandeau {
+    z-index: 1;
 }
 
 .mg-lg {
@@ -925,6 +932,13 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .header-center{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
     }
 }
 
