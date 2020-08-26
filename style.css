@@ -33,7 +33,8 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    
+    decoration: none;
     cursor: pointer;
 }
 
@@ -730,6 +731,17 @@ h4 {
 
 }
 
+.header-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.bloc-client { 
+    display: flex;
+    flex-direction: column;
+}
 /* MEDIA QUERRIES */
 
 @media (max-width: 1024px) {
@@ -885,8 +897,7 @@ h4 {
         padding-right: 0;
     }
     .bloc-xxl,
-    .bloc-xl,
-    .bloc-lg {
+    .bloc-xl,{
         padding: 40px 0;
     }
     .bloc-sm,
@@ -932,13 +943,6 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
-
-    .header-center{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
     }
 }
 
