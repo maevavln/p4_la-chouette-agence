@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
@@ -1436,9 +1435,9 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
+    display: block;
     max-width: 100%;
     height: auto
-    
 }
 
 .img-rounded {
@@ -5077,7 +5076,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (min-width:768px) {
-
+    .navbar-header {
+        float: left
+    }
+}
 
 .navbar-collapse {
     padding-right: 15px;
