@@ -17,11 +17,20 @@ body, a{
 
 @font-face {
     font-family: 'Goudy Bookletter 1911';
-    src: url('GoudyBookletter1911.woff2') format('woff2'),
-        url('GoudyBookletter1911.woff') format('woff');
+    src: url('./fonts/GoudyBookletter1911.woff2') format('woff2'),
+        url('./fonts/kingthings_petrock-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+@font-face {
+    font-family: 'kingthings_petrockregular';
+    src: url('./fonts/kingthings_petrock-webfont.woff2') format('woff2'),
+         url('./fonts/kingthings_petrock-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /*end font */
@@ -162,8 +171,8 @@ a:hover {
 }
 
 .logo-font {
-    font-family: 'Goudy Bookletter 1911';
-    font-size: 1.5em;
+    font-family: 'kingthings_petrockregular';
+    font-size: 2em;
 }
 
 .header {
@@ -575,7 +584,6 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
 }
 
 a:link { 
