@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="seo, site web, site internet, agence design lyon, agence design, webdesign, graphisme, Stratégie web, nous contacter, contact agence web">
     <meta name="description" content="Contactez-nous : La Chouette Agence apporte une réponse à tous vos projet web et redonne vie à votre entreprise.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -9,15 +10,15 @@
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/min.bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="min.style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/min.font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/min.et-line.css">
 	
     
 	<script src="./js/min.query-2.1.0.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jquery.touchSwipe.min.js" defer></script>
-	<script src="./js/gmaps.min.js"></script>
+	<script src="./js/min.bootstrap.js"></script>
+	<script src="./js/min.blocs.js"></script>
+	<script src="./js/min.jquery.touchSwipe.js" defer></script>
+	<script src="./js/min.gmaps.js"></script>
 
     <title>Contact</title>
 
@@ -64,9 +65,9 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="bandeau-accueil element-center">
-				<h1 class="hero-bloc-text white">
+				<h2 class="hero-bloc-text white">
 					Parlons web design !
-				</h1>
+				</h2>
 				<p class="text-center mg-lg white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
@@ -82,7 +83,7 @@
 	<div class="container bloc-lg">
 		<div class="contact-adress">
 			<div>
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate>
 					<div class="form-group">
 						<label>
 							Nom
@@ -93,13 +94,13 @@
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required id="input_email"/>
+						<input id="email" class="form-control" type="email" name="email" required/>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="form-control" />
+						<input class="form-control"/>
 					</div>
 					<div class="form-group">
 						<label>
