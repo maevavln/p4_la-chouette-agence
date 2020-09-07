@@ -198,7 +198,6 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -675,15 +674,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C1572B;
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #ffffff;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C1572B;
     color: #FFFFFF!important;
 }
 
@@ -701,7 +700,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C;
+    color: #C1572B;
 }
 
 .ltc-atomic-tangerine:hover {
