@@ -782,6 +782,16 @@ input:invalid {
   .blacktext {
       color: black!important;
   }
+
+  .text-contact {
+      font-size: 20px;
+      font-style: bold;
+  }
+
+  .text-center {
+      display: flex;
+      flex-wrap: wrap;
+  }
 /* MEDIA QUERRIES */
 
 @media (max-width: 1024px) {
