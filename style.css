@@ -385,7 +385,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .icon-lg {
@@ -674,7 +674,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #C1572B;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -682,7 +682,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #C1572B;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -700,7 +700,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #C1572B;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -739,7 +739,7 @@ h4 {
 }
 
 .text-footer {
-    color: #FFFFFF;
+    color: #000000;
     margin: 0 0 10px;
     padding: 0 0 10px;;
 }
@@ -770,6 +770,17 @@ h4 {
     margin-top: 24px;
 }
 
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    outline: none;
+  }
+
+  .blacktext {
+      color: black!important;
+  }
 /* MEDIA QUERRIES */
 
 @media (max-width: 1024px) {
