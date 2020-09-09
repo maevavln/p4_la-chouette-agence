@@ -41,11 +41,18 @@ button {
     outline: none!important;
 }
 
-a:hover 
-a:focus {
-    
+a:link { 
+    text-decoration:none; 
+} 
+
+a:hover, a:active {
+    color: inherit;
     text-decoration: none;
     cursor: pointer;
+}
+
+a:focus { 
+    border: dotted 3px black; 
 }
 
 #page-loading-blocs-notifaction {
@@ -591,15 +598,6 @@ p {
     font-size: 20px;
 }
 
-a:link { 
-    text-decoration:none; 
-} 
-
-a:hover, a:focus, a:active {
-    color: inherit;
-    text-decoration: none;
-}
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF;
@@ -801,7 +799,6 @@ input:invalid {
 
   .text-contact {
       font-size: 20px;
-      font-style: bold;
   }
 
   .text-center-bandeau {
@@ -809,7 +806,7 @@ input:invalid {
       flex-wrap: wrap;
   }
 
-  input:focus, textarea:focus {
+  input:focus {
     border-color: #000;
   }
 
