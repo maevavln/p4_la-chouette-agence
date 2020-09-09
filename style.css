@@ -189,6 +189,11 @@ a:focus {
     z-index: 1;
 }
 
+.navbar:link 
+.navbar :focus{
+    color: rgba(0, 0, 0, .6);
+}
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -238,7 +243,7 @@ a:focus {
     border: 0px;
 }
 
-.navbar-toggle:hover {
+.navbar-toggle:hover, .navbar-toggle:focus {
     background: transparent!important;
 }
 
@@ -369,8 +374,9 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
+button:focus {
     outline: none!important;
+    background: lightgrey;
 }
 
 .btn-rd {
@@ -415,7 +421,7 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
+.form-control:focus{
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
@@ -588,6 +594,12 @@ p {
 a:link { 
     text-decoration:none; 
 } 
+
+a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF;
@@ -664,6 +676,10 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+}
+
+.bold-link:focus {
+    outline: none;
 }
 
 .bgc-white {
@@ -792,6 +808,11 @@ input:invalid {
       display: flex;
       flex-wrap: wrap;
   }
+
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+
 /* MEDIA QUERRIES */
 
 @media (max-width: 1024px) {
