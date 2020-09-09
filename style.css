@@ -381,9 +381,10 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button:focus {
+button:focus
+.btn:focus {
     outline: none!important;
-    background: lightgrey;
+    background: #B65E41;
 }
 
 .btn-rd {
